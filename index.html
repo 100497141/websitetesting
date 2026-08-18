@@ -1,130 +1,158 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#050505" />
-  <title>Jorge Rodal — Film · Media · Storytelling</title>
-  <meta name="description" content="Jorge Rodal — filmmaker and media professional." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<title>JORGE RODAL — THE FILM</title>
+<meta name="description" content="Jorge Rodal — filmmaker, storyteller and media professional.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="loader"><span>JR</span><div class="loader-line"><i></i></div><small>LOADING EXPERIENCE</small></div>
+<div class="grain"></div>
 
-  <header class="nav">
-    <a class="brand" href="#top">JR</a>
-    <nav>
-      <a href="#work">WORK</a>
-      <a href="#about">ABOUT</a>
-      <a href="#experience">EXPERIENCE</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-    <button class="menu" aria-label="Open menu"><span>MENU</span><b></b><b></b></button>
-  </header>
+<!-- OPENING CREDITS / TERMINAL -->
+<section class="opening" id="opening">
+  <div class="terminal">
+    <div class="terminal-top"><span>JORGE RODAL — EDIT SUITE</span><span>ONLINE</span></div>
+    <div class="terminal-body">
+      <div class="cmd"><span class="prompt">&gt;</span><span id="typed"></span><span class="caret">_</span></div>
+      <div class="terminal-status" id="terminalStatus">INITIALIZING STORY ENGINE</div>
+    </div>
+  </div>
+  <div class="opening-credit">A FILM BY <strong>JORGE RODAL</strong></div>
+  <div class="opening-progress"><span></span></div>
+</section>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-media">
-        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=2200&q=85" alt="">
+<header class="nav">
+  <a href="#film" class="logo">JR</a>
+  <nav><a href="#work">WORK</a><a href="#experience">EDIT</a><a href="#about">ABOUT</a><a href="#contact">CREDITS</a></nav>
+  <div class="timecode">00:00:00:00</div>
+</header>
+
+<main id="film">
+
+<!-- ACT I / CAMERA -->
+<section class="scene scene-camera" id="hero">
+  <div class="viewfinder">
+    <span class="vf-corner tl"></span><span class="vf-corner tr"></span><span class="vf-corner bl"></span><span class="vf-corner br"></span>
+    <div class="vf-top"><span>CAM A</span><span>REC <b>●</b></span><span>24 FPS</span></div>
+    <div class="vf-bottom"><span>35MM</span><span>ISO 800</span><span>1/48</span><span>F2.8</span></div>
+    <div class="focus-box"></div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=2400&q=88" alt="">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-title">
+    <p>FILMMAKER · STORYTELLER · MEDIA STRATEGIST</p>
+    <h1>JORGE<br><i>RODAL</i></h1>
+    <span class="subtitle">THIS IS NOT A WEBSITE.<br>IT'S A MOVING IMAGE.</span>
+  </div>
+  <div class="scene-marker">SCENE 01 / OPENING SHOT</div>
+  <div class="scroll-word">ROLL <span>↓</span></div>
+</section>
+
+<!-- ACT II / SHOWREEL AS PLAYBACK -->
+<section class="scene playback">
+  <div class="scene-label">SCENE 02 / PLAYBACK</div>
+  <div class="playback-wrap">
+    <div class="monitor">
+      <div class="monitor-bar"><span>SHOWREEL_2026.mov</span><span>00:00:14:12</span></div>
+      <div class="monitor-image">
+        <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=2000&q=85" alt="">
+        <div class="scanline"></div>
+        <div class="play-icon">▶</div>
       </div>
-      <div class="hero-shade"></div>
-      <div class="hero-copy">
-        <p class="eyebrow reveal">FILMMAKER <em>·</em> STORYTELLER <em>·</em> MEDIA STRATEGIST</p>
-        <h1><span>JORGE</span><span>RODAL</span></h1>
-        <p class="hero-tag">I tell stories.<br><i>I build things.</i></p>
-      </div>
-      <div class="scroll-cue"><span>SCROLL</span><i></i></div>
-      <div class="chapter">01 <i></i> 05</div>
-    </section>
+      <div class="timeline-bar"><i></i><span>01:24</span><span>02:48</span></div>
+    </div>
+    <div class="playback-copy">
+      <small>SHOWREEL</small>
+      <h2>Stories<br><i>move.</i></h2>
+      <p>Production, documentary, strategy and the work between the frames.</p>
+      <button class="play-btn">PLAY REEL <span>↗</span></button>
+    </div>
+  </div>
+</section>
 
-    <section class="intro dark">
-      <div class="section-meta">01 / SHOWREEL</div>
-      <div class="intro-copy">
-        <p class="kicker">A moving image.</p>
-        <h2>Stories<br><i>move.</i><br>So do we.</h2>
-        <a class="line-link" href="#work">EXPLORE WORK <span>↗</span></a>
-      </div>
-      <div class="reel">
-        <div class="reel-img">
-          <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1800&q=85" alt="Film camera">
-          <div class="play">▶</div>
-        </div>
-        <div class="reel-caption">SELECTED MOMENTS <span>2024—26</span></div>
-      </div>
-    </section>
+<!-- ACT III / DARKROOM -->
+<section class="scene darkroom" id="work">
+  <div class="scene-label">SCENE 03 / DARKROOM</div>
+  <div class="darkroom-image">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2400&q=88" alt="">
+    <div class="exposure"></div>
+    <div class="chem"><span>EXPOSURE</span><strong>00%</strong><i><b></b></i></div>
+    <div class="darkroom-title"><span>THE</span><span>BEAR</span><span>BENEATH</span></div>
+    <p>A short documentary about the California Grizzly and a landscape in transformation.</p>
+    <a href="#contact" class="project-link">VIEW PROJECT ↗</a>
+  </div>
+</section>
 
-    <section id="work" class="feature dark">
-      <div class="section-meta">02 / FEATURED WORK</div>
-      <div class="feature-media">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=85" alt="Landscape">
-        <div class="feature-title"><span>THE</span><span>BEAR</span><span>BENEATH</span></div>
-        <p class="feature-desc">A short documentary about the California Grizzly and a landscape in transformation.</p>
-        <a class="round-link" href="#contact">VIEW PROJECT <span>↗</span></a>
-      </div>
-    </section>
+<!-- ACT IV / FILM STRIP -->
+<section class="scene filmstrip">
+  <div class="scene-label">SCENE 04 / SELECTED CUTS</div>
+  <div class="strip-head"><p>SELECTED WORK</p><h2>Frames from<br><i>the edit.</i></h2></div>
+  <div class="strip-window">
+    <div class="strip-track">
+      <article class="frame"><div><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=85"></div><small>01 / SHORT FILM</small><h3>A ROOM<br>OF LIGHT</h3></article>
+      <article class="frame"><div><img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=1200&q=85"></div><small>02 / EXPERIMENTAL</small><h3>HABITAR</h3></article>
+      <article class="frame"><div><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85"></div><small>03 / DOCUMENTARY</small><h3>ROUTES<br>WEST</h3></article>
+      <article class="frame"><div><img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1200&q=85"></div><small>04 / DEVELOPMENT</small><h3>UNTITLED<br>PROJECT</h3></article>
+      <article class="frame"><div><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=85"></div><small>05 / FIELD NOTES</small><h3>IN<br>BETWEEN</h3></article>
+    </div>
+  </div>
+  <div class="film-sprockets"></div>
+</section>
 
-    <section class="horizontal dark">
-      <div class="section-meta">03 / SELECTED WORK</div>
-      <div class="horizontal-track">
-        <article class="card">
-          <div class="card-img"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=85" alt=""></div>
-          <small>01 — SHORT FILM</small><h3>A ROOM<br><i>OF LIGHT</i></h3>
-        </article>
-        <article class="card">
-          <div class="card-img"><img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=1200&q=85" alt=""></div>
-          <small>02 — EXPERIMENTAL</small><h3>HABITAR</h3>
-        </article>
-        <article class="card">
-          <div class="card-img"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85" alt=""></div>
-          <small>03 — DOCUMENTARY</small><h3>ROUTES<br><i>WEST</i></h3>
-        </article>
-        <article class="card">
-          <div class="card-img"><img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1200&q=85" alt=""></div>
-          <small>04 — DEVELOPMENT</small><h3>UNTITLED<br><i>PROJECT</i></h3>
-        </article>
-      </div>
-      <div class="drag-note">DRAG <span>→</span></div>
-    </section>
+<!-- ACT V / EDIT TIMELINE -->
+<section class="scene edit-suite" id="experience">
+  <div class="scene-label">SCENE 05 / THE EDIT</div>
+  <div class="edit-header"><span>SEQUENCE_01</span><h2>Cutting<br><i>through time.</i></h2></div>
+  <div class="edit-interface">
+    <div class="edit-ruler"><span>00:00</span><span>00:30</span><span>01:00</span><span>01:30</span><span>02:00</span><span>02:30</span></div>
+    <div class="playhead"><b>▶</b></div>
+    <div class="track-row"><label>VIDEO</label><div class="clips"><article><b>2026</b><strong>CONSULATE GENERAL<br>OF SPAIN · NEW YORK</strong></article><article><b>2025—26</b><strong>CARSEY-WOLF CENTER<br>UCSB</strong></article><article><b>2026</b><strong>THE BEAR<br>BENEATH</strong></article><article><b>2022—26</b><strong>UC3M<br>FILM · TV · MEDIA</strong></article></div></div>
+    <div class="track-row audio"><label>AUDIO</label><div class="wave"></div></div>
+  </div>
+</section>
 
-    <section id="about" class="about light">
-      <div class="section-meta">04 / ABOUT ME</div>
-      <div class="about-grid">
-        <h2>Film, media<br>& <i>everything</i><br>in between.</h2>
-        <div class="about-copy">
-          <p class="big">I'm a filmmaker and media professional working across storytelling, production and strategy.</p>
-          <p>My background spans Film, Television & Media Studies at UC3M and UCSB, documentary production, international communications and creative development.</p>
-          <a class="line-link dark-link" href="#experience">MORE ABOUT ME <span>↗</span></a>
-        </div>
-        <div class="portrait"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1100&q=85" alt="Portrait placeholder"></div>
-      </div>
-    </section>
+<!-- ACT VI / PORTRAIT REVEAL -->
+<section class="scene portrait-scene" id="about">
+  <div class="scene-label">SCENE 06 / PORTRAIT</div>
+  <div class="portrait-wrap">
+    <div class="portrait-reveal"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=85" alt=""></div>
+    <div class="portrait-copy">
+      <small>ABOUT THE FILMMAKER</small>
+      <h2>Film, media<br>& <i>everything</i><br>in between.</h2>
+      <p>I'm a filmmaker and media professional working across storytelling, production and strategy.</p>
+      <p>My background spans Film, Television & Media Studies at UC3M and UCSB, documentary production and international communications.</p>
+    </div>
+  </div>
+</section>
 
-    <section id="experience" class="experience dark">
-      <div class="section-meta">05 / EXPERIENCE</div>
-      <div class="experience-head"><p>SELECTED</p><h2>Where the<br><i>work</i> happens.</h2></div>
-      <div class="timeline">
-        <div><span>2026</span><h3>Consulate General of Spain · New York</h3><p>Digital Communications & Social Media</p></div>
-        <div><span>2025—26</span><h3>Carsey-Wolf Center · UCSB</h3><p>Undergraduate Teaching Assistant · Production</p></div>
-        <div><span>2026</span><h3>The Bear Beneath</h3><p>Producer · Director · Documentary</p></div>
-        <div><span>2026</span><h3>UC3M</h3><p>Film, Television & Media Studies · TFG Emprende</p></div>
-      </div>
-    </section>
+<!-- FINAL / CREDITS -->
+<section class="scene credits" id="contact">
+  <div class="credit-roll">
+    <p>THE END</p>
+    <h2>JORGE<br><i>RODAL</i></h2>
+    <div class="credit-columns">
+      <div><small>DIRECTED BY</small><strong>JORGE RODAL</strong></div>
+      <div><small>PRODUCED BY</small><strong>JORGE RODAL</strong></div>
+      <div><small>STORY / MEDIA</small><strong>FILM · TELEVISION · STRATEGY</strong></div>
+    </div>
+    <a class="email" href="mailto:hello@jorgerodal.com">hello@jorgerodal.com ↗</a>
+    <div class="final-links"><a href="#">LINKEDIN</a><a href="#">INSTAGRAM</a><a href="#">VIMEO</a><span>© 2026</span></div>
+  </div>
+</section>
 
-    <section id="contact" class="contact dark">
-      <p class="eyebrow">LET'S MAKE SOMETHING</p>
-      <h2>Have a story?<br><i>Let's talk.</i></h2>
-      <a class="email" href="mailto:hello@jorgerodal.com">hello@jorgerodal.com <span>↗</span></a>
-      <div class="footer-links"><a href="#">LINKEDIN</a><a href="#">INSTAGRAM</a><a href="#">VIMEO</a><span>© 2026 JORGE RODAL</span></div>
-    </section>
-  </main>
+</main>
 
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
-  <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
