@@ -89,3 +89,13 @@ body{overflow-x:hidden}
  .closing{padding:80px 6vw}.closing h2{margin:45px 0 65px}
  footer{padding-left:6vw;padding-right:6vw}
 }
+
+/* Final polish: real photography + clearer navigation */
+.nav-actions{display:flex;align-items:center;gap:14px}
+.linkedin-button{display:inline-flex;align-items:center;gap:7px;padding:10px 15px;border-radius:999px;background:#1d1d1f;color:#fff;font-size:13px;line-height:1;border:1px solid #1d1d1f;transition:transform .25s ease,background .25s ease}
+.linkedin-button:hover{transform:translateY(-1px);background:#000;color:#fff}
+.linkedin-button span{font-size:12px}
+.nav-actions .contact{white-space:nowrap}
+/* The real photos are the content; never show development placeholder labels over them. */
+.photo-placeholder,.image-placeholder{display:none!important}
+@media(max-width:700px){.nav-actions{gap:8px}.linkedin-button{padding:9px 12px;font-size:12px}.nav-actions .contact{font-size:12px}.nav-actions .contact span{display:none}}
