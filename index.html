@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="progress"></div>
+
   <header class="nav">
     <a class="brand" href="#top">JR.</a>
     <nav>
@@ -20,130 +22,297 @@
 
   <main id="top">
     <section class="hero">
-      <div class="eyebrow">MEDIA · ENTERTAINMENT · STORYTELLING</div>
-      <h1>Hi, I’m<br><em>Jorge.</em></h1>
+      <div class="hero-top">
+        <div class="eyebrow">MEDIA · ENTERTAINMENT · STORYTELLING</div>
+        <div class="location">MADRID / NEW YORK / SANTA BARBARA</div>
+      </div>
+
+      <div class="hero-main">
+        <div class="hero-copy">
+          <h1>Hi, I’m<br><em>Jorge.</em></h1>
+          <p>I’m a Spanish media professional working across film, television, digital media and emerging formats.</p>
+        </div>
+
+        <!-- PHOTO SLOT: replace assets/jorge-portrait.jpg with your portrait -->
+        <div class="portrait-slot">
+          <img src="assets/jorge-portrait.jpg" alt="Jorge Rodal" onerror="this.style.display='none';this.parentElement.classList.add('empty')">
+          <div class="photo-placeholder"><span>PHOTO</span><small>assets/jorge-portrait.jpg</small></div>
+          <div class="portrait-caption">JORGE RODAL<br>MEDIA · FILM · ENTERTAINMENT</div>
+        </div>
+      </div>
+
       <div class="hero-bottom">
-        <p class="lead">I’m a Spanish media professional working across film, television, digital media and emerging formats.</p>
-        <div class="scroll">SCROLL<br><span>↓</span></div>
+        <div class="hero-note">01 — INTRODUCTION</div>
+        <div class="scroll">SCROLL <span>↓</span></div>
       </div>
     </section>
 
     <section class="statement">
+      <div class="statement-index">02 — WHAT I DO</div>
       <p>I like making things <strong>people want to watch.</strong></p>
       <p class="muted">Production, content strategy, audience thinking and the ideas in between.</p>
     </section>
 
     <section id="work" class="section work">
       <div class="section-head">
-        <span>01</span><h2>Selected work</h2>
+        <span>03</span><h2>Selected work</h2>
       </div>
 
-      <article class="feature-card">
-        <div class="feature-visual bear">
-          <div class="visual-label">DOCUMENTARY · 2026</div>
-          <div class="visual-title">THE<br>BEAR<br>BENEATH</div>
-          <div class="visual-mark">UC SANTA BARBARA</div>
-        </div>
-        <div class="feature-copy">
-          <p class="kicker">PRODUCER</p>
-          <h3>A documentary about California’s lost icon.</h3>
-          <p>Produced from research through final cut, following the debate around restoring the California grizzly bear.</p>
-          <div class="tags"><span>SBIFF 2026</span><span>DGA FINALIST</span><span>USC ECO MEDIA</span></div>
+      <!-- FEATURE PROJECT: THE BEAR BENEATH -->
+      <article class="feature-project">
+        <a class="project-image bear-image" href="https://media.jorgerodal.com/thebearbeneathpk" target="_blank" rel="noreferrer">
+          <!-- PHOTO SLOT: replace assets/the-bear-beneath.jpg -->
+          <img src="assets/the-bear-beneath.jpg" alt="The Bear Beneath still" onerror="this.style.display='none';this.parentElement.classList.add('empty')">
+          <div class="image-placeholder"><span>FILM STILL / HERO IMAGE</span><small>assets/the-bear-beneath.jpg</small></div>
+          <div class="image-meta">THE BEAR BENEATH · 2025/26</div>
+
+          <div class="laurel laurel-one">SBIFF<br><b>2026</b></div>
+          <div class="laurel laurel-two">DGA<br><b>FINALIST</b></div>
+          <div class="laurel laurel-three">USC<br><b>ECO MEDIA</b></div>
+        </a>
+
+        <div class="feature-info">
+          <div>
+            <p class="kicker">PRODUCER · DOCUMENTARY</p>
+            <h3>The Bear<br><i>Beneath</i></h3>
+            <p class="description">Produced a short documentary directed by Olivia Hille on California's grizzly bear restoration debate (SB-1305), overseeing the project from research through final cut within UC Santa Barbara's GreenScreen program.</p>
+            <p class="description">The documentary premiered at the Santa Barbara International Film Festival 2026 and was recognized by the Directors Guild of America and the USC Eco Media Festival.</p>
+          </div>
+          <a class="project-link" href="https://media.jorgerodal.com/thebearbeneathpk" target="_blank" rel="noreferrer">Open project <span>↗</span></a>
         </div>
       </article>
 
-      <div class="cards">
-        <article class="mini-card">
-          <div class="mini-number">02</div>
-          <p class="kicker">MEDIA PLATFORM</p>
-          <h3>Sonora UC3M</h3>
-          <p>Founded UC3M’s first student radio station and grew it into a 100+ member multidisciplinary team.</p>
-          <span class="arrow">↗</span>
+      <div class="project-grid">
+        <!-- PROJECT 02 -->
+        <article class="project-card">
+          <a class="project-photo" href="https://vimeo.com/1070460898" target="_blank" rel="noreferrer">
+            <!-- PHOTO SLOT: replace assets/the-wolf-she-paints.jpg -->
+            <img src="assets/the-wolf-she-paints.jpg" alt="The Wolf She Paints" onerror="this.style.display='none';this.parentElement.classList.add('empty')">
+            <div class="image-placeholder"><span>PHOTO / STILL</span><small>assets/the-wolf-she-paints.jpg</small></div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-card-copy">
+            <span class="project-no">02</span>
+            <p class="kicker">PRODUCER · 2025</p>
+            <h3>The Wolf She Paints</h3>
+            <p>Behind-the-scenes documentary of <i>Strange Birds</i>, a new play by E.M. Lewis, directed by Risa Brainin. Produced at UC Santa Barbara.</p>
+          </div>
         </article>
-        <article class="mini-card">
-          <div class="mini-number">03</div>
-          <p class="kicker">DIGITAL COMMUNICATION</p>
-          <h3>Consulate General of Spain · New York</h3>
-          <p>Built a new digital communications strategy and launched the institution’s first Instagram account end-to-end.</p>
-          <span class="arrow">↗</span>
+
+        <!-- PROJECT 03 -->
+        <article class="project-card">
+          <a class="project-photo" href="https://www.linkedin.com/in/jorgerodal/" target="_blank" rel="noreferrer">
+            <!-- PHOTO SLOT: replace assets/society-of-fearless-grandmothers.jpg -->
+            <img src="assets/society-of-fearless-grandmothers.jpg" alt="Society of Fearless Grandmothers" onerror="this.style.display='none';this.parentElement.classList.add('empty')">
+            <div class="image-placeholder"><span>PHOTO / STILL</span><small>assets/society-of-fearless-grandmothers.jpg</small></div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-card-copy">
+            <span class="project-no">03</span>
+            <p class="kicker">ASSOCIATE PRODUCER & SWING · 2025</p>
+            <h3>The Society of Fearless Grandmothers</h3>
+            <p>The film explores the environmental activism of a group of grandmothers with courage, wisdom, and grief as they fight for a better future and challenge stereotypes.</p>
+          </div>
         </article>
+
+        <!-- PROJECT 04 -->
+        <article class="project-card dark-card">
+          <a class="project-photo" href="https://www.linkedin.com/company/sonorauc3m/" target="_blank" rel="noreferrer">
+            <!-- PHOTO SLOT: replace assets/sonora.jpg -->
+            <img src="assets/sonora.jpg" alt="Sonora UC3M" onerror="this.style.display='none';this.parentElement.classList.add('empty')">
+            <div class="image-placeholder"><span>PHOTO / BRAND IMAGE</span><small>assets/sonora.jpg</small></div>
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-card-copy">
+            <span class="project-no">04</span>
+            <p class="kicker">FOUNDER · MEDIA PLATFORM</p>
+            <h3>Sonora UC3M</h3>
+            <p>Founded the university's first radio station and designed its programming model from scratch, building a multidisciplinary team of more than 100 members.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="awards-strip">
+      <div class="awards-label">RECOGNITION</div>
+      <div class="awards-list">
+        <span>DIRECTORS GUILD OF AMERICA <b>· 2026</b></span>
+        <span>SANTA BARBARA INTERNATIONAL FILM FESTIVAL <b>· 2026</b></span>
+        <span>USC ECO MEDIA FESTIVAL <b>· 2026</b></span>
       </div>
     </section>
 
     <section id="experience" class="section experience">
       <div class="section-head">
-        <span>02</span><h2>Experience</h2>
+        <span>04</span><h2>Experience</h2>
       </div>
 
-      <div class="timeline">
-        <article class="job">
-          <div class="date">MAR — JUL<br>2026</div>
-          <div>
+      <div class="experience-list">
+        <article class="experience-item">
+          <div class="exp-date">MAR 2026 — JUL 2026</div>
+          <div class="exp-main">
             <h3>Communications Intern</h3>
-            <p class="company">Consulate General of Spain · New York</p>
-            <p>Digital communications, audiovisual content, institutional partnerships and FIFA World Cup 2026 visitor communications.</p>
+            <p class="company">Consulate General of Spain in New York <span>· New York, NY · On-site</span></p>
+            <ul>
+              <li>Led a new digital communications strategy for the Consulate, digitalizing and modernizing external and internal channels, and launching and managing the institution’s first Instagram account end-to-end.</li>
+              <li>Managed Consulate communications and protocols during the FIFA World Cup 2026, developing the visitor communications plan later adopted and distributed by several Spanish consulates across the United States.</li>
+              <li>Built partnerships with cultural and institutional organizations to promote Spain’s cultural and economic presence across New York, New Jersey, Pennsylvania, Connecticut, and Delaware.</li>
+              <li>Assisted Spanish citizens in consular emergency and protection cases, coordinating with U.S. authorities and supported visa processing.</li>
+            </ul>
           </div>
         </article>
-        <article class="job">
-          <div class="date">APR 2025 —<br>MAR 2026</div>
-          <div>
+
+        <article class="experience-item">
+          <div class="exp-date">JUL 2025 — JUL 2026</div>
+          <div class="exp-main">
+            <h3>Governing Board Member</h3>
+            <p class="company">Universidad Carlos III de Madrid <span>· Madrid, Spain</span></p>
+            <ul>
+              <li>Took part in strategic decisions on academic policy, institutional planning, budget distribution, and quality assurance.</li>
+              <li>Worked with senior leadership on oversight of the university's annual budget framework of more than €300M.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-date">SEP 2024 — JUN 2026</div>
+          <div class="exp-main">
+            <h3>University Senate Member</h3>
+            <p class="company">Universidad Carlos III de Madrid <span>· Madrid, Spain</span></p>
+            <ul>
+              <li>Elected with the highest number of student votes in UC3M history, representing the university community in its highest academic governance body.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-date">APR 2025 — MAR 2026</div>
+          <div class="exp-main">
             <h3>Producer · <i>The Bear Beneath</i></h3>
-            <p class="company">UC Santa Barbara</p>
-            <p>Produced a short documentary and coordinated its multi-festival release.</p>
+            <p class="company">UC Santa Barbara <span>· Santa Barbara, CA</span></p>
+            <ul>
+              <li>Produced a short documentary directed by Olivia Hille on California's grizzly bear restoration debate (SB-1305), overseeing the project from research through final cut within UC Santa Barbara's GreenScreen program.</li>
+              <li>Documentary later honored with a Directors Guild of America (DGA) Student Spotlight Award and Official Selection at the Santa Barbara International Film Festival 2026; also recognized at the University of Southern California's Eco Media Festival 2026.</li>
+              <li>Planned and ran the film's multi-festival release, coordinating screening schedules, press, and partner logistics.</li>
+            </ul>
           </div>
         </article>
-        <article class="job">
-          <div class="date">APR 2024 —<br>MAR 2026</div>
-          <div>
-            <h3>Founder · Head of Growth & Partnerships</h3>
-            <p class="company">Sonora UC3M</p>
-            <p>Built the station’s programming model, partnerships, operations and 100+ member team from scratch.</p>
+
+        <article class="experience-item">
+          <div class="exp-date">JUN 2025 — AUG 2025</div>
+          <div class="exp-main">
+            <h3>Teaching Assistant @ Carsey-Wolf Center</h3>
+            <p class="company">UC Santa Barbara <span>· Santa Barbara, CA · On-site</span></p>
+            <ul>
+              <li>Served as Teaching Assistant for the 2025 Coastal Media Project; led camera and lighting workshops on campus and in the field.</li>
+              <li>Managed Canon and Sony sponsored equipment inventory and distribution between campus and Channel Islands National Park.</li>
+            </ul>
           </div>
         </article>
-        <article class="job">
-          <div class="date">NOV 2022 —<br>FEB 2026</div>
-          <div>
-            <h3>Student Body President</h3>
-            <p class="company">Universidad Carlos III de Madrid</p>
-            <p>Represented 25,000+ students and coordinated 500+ student representatives across campuses.</p>
+
+        <article class="experience-item">
+          <div class="exp-date">APR 2024 — MAR 2026</div>
+          <div class="exp-main">
+            <h3>Founder & Head of Growth & Partnerships</h3>
+            <p class="company">Sonora UC3M <span>· Madrid · Hybrid</span></p>
+            <ul>
+              <li>Founded the university's first radio station and designed its programming model from scratch, building the weekly schedule and content lineup across multiple shows as a new platform for student creativity and campus engagement.</li>
+              <li>Planned monthly and weekly programming around themed strands, calendar events, and special broadcasts, coordinating the production, communication, and operations teams to deliver each grid on deadline.</li>
+              <li>Built and led a multidisciplinary team of more than 100 members and secured the station's funding, resources, and institutional backing, allocating limited resources creatively and cost-effectively to keep it running long term.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-date">NOV 2022 — FEB 2026</div>
+          <div class="exp-main">
+            <h3>Student Body President; previously VP & School President</h3>
+            <p class="company">Delegación de Estudiantes de la Universidad Carlos III de Madrid <span>· Madrid · Hybrid</span></p>
+            <ul>
+              <li>Led UC3M's top student governance body (2025-2026), representing 25,000+ students and coordinating 500+ representatives across schools and campuses; also represented UC3M nationally on Spain's CEUNE student council.</li>
+              <li>Directed multi-department teams and led initiatives that broadened participation across the university's governance process.</li>
+              <li>Earlier, served as Student Body VP (2024-2025) and as President of the Student Government for the School of Humanities, Communication and Library Science (2022-2024).</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-date">JAN 2023 — FEB 2024</div>
+          <div class="exp-main">
+            <h3>Head of Production · Radiotón 2023, 2024</h3>
+            <p class="company">Delegación de Estudiantes UC3M <span>· Getafe, Spain</span></p>
+            <ul>
+              <li>Coordinated two annual editions of the Radiotón, a 12-hour uninterrupted broadcast of student-produced radio programs for World Radio Day.</li>
+              <li>Selected and scheduled the full programming lineup, and supervised broadcast equipment for the live 12-hour transmission.</li>
+              <li>Managed institutional relations to secure the event’s continuity across both editions.</li>
+            </ul>
           </div>
         </article>
       </div>
     </section>
 
     <section class="big-quote">
-      <p>“I’m interested in<br><span>what comes next.</span>”</p>
+      <p>Different projects.<br><span>Same curiosity.</span></p>
     </section>
 
     <section id="about" class="section about">
       <div class="section-head">
-        <span>03</span><h2>About</h2>
+        <span>05</span><h2>About</h2>
       </div>
       <div class="about-grid">
-        <div>
-          <h3>From Madrid<br>to the US<br>and back.</h3>
+        <div class="about-headline">
+          <span class="about-small">MADRID → ROCHESTER → SANTA BARBARA → NEW YORK</span>
+          <h3>Stories<br>travel.</h3>
         </div>
         <div class="about-copy">
-          <p>I’m Jorge Rodal, a Film, Television and Media Studies graduate building a career across entertainment, production and content strategy.</p>
-          <p>My story started in Madrid, took me to Rochester and Santa Barbara, and brought me back to New York professionally. Along the way, I’ve worked on documentaries, built a student media platform, represented a 25,000+ student community and developed digital communications for a Spanish institution in the US.</p>
-          <p>I’m particularly interested in the intersection of <strong>audiences, culture and technology</strong> — and in turning ideas into things that actually exist.</p>
+          <p>¡Hola! I'm Jorge, a Film, Television and Media Studies graduate building a career across film, TV and emerging formats, with hands-on experience in Spain and the United States.</p>
+          <p>On the production side, I produced <i>The Bear Beneath</i>, an environmental documentary selected for the Santa Barbara International Film Festival and recognized by the Directors Guild of America. I also founded UC3M’s first student-run radio station, growing it from the ground up into a team of 100+ students. Alongside this, I represented 25,000+ students as Head of UC3M’s student government and served on the university’s governing board.</p>
+          <p>Most recently, I worked at the Consulate General of Spain in New York, where I built its digital communications strategy and developed audiovisual and digital content for audiences in the US and Spain.</p>
+          <p>I'm interested in understanding audiences, spotting where culture and technology are moving, and turning those insights into content and ideas that can travel across markets.</p>
         </div>
       </div>
     </section>
 
-    <section class="thesis">
-      <div class="thesis-label">FINAL DEGREE PROJECT</div>
-      <div class="thesis-content">
+    <section class="research-card">
+      <div class="research-label">ONE MORE THING</div>
+      <div>
+        <p class="kicker">RESEARCH · STRATEGY · EMERGING FORMATS</p>
         <h2>What happens when<br>stories go vertical?</h2>
-        <p>I developed a go-to-market plan for a branded microdrama agency, exploring how emerging short-form formats can create opportunities for audiences, creators and brands.</p>
-        <span>MEDIA RESEARCH · EMERGING FORMATS · STRATEGY</span>
+        <p>My bachelor’s thesis was a full go-to-market plan for a branded microdrama agency, exploring how emerging short-form formats can create new opportunities for audiences, creators and brands.</p>
+        <a href="https://media.jorgerodal.com/microdrama" target="_blank" rel="noreferrer">View the project <span>↗</span></a>
       </div>
     </section>
 
     <section class="education">
-      <div class="edu-item"><span>2022 — 2026</span><strong>Universidad Carlos III de Madrid</strong><small>Film, Television & Media Studies</small></div>
-      <div class="edu-item"><span>2024 — 2025</span><strong>UC Santa Barbara</strong><small>Film & Media Studies</small></div>
-      <div class="edu-item"><span>2021 — 2022</span><strong>World of Inquiry School</strong><small>Rochester, New York</small></div>
+      <div class="section-head">
+        <span>06</span><h2>Education</h2>
+      </div>
+      <div class="education-grid">
+        <article class="edu">
+          <div class="edu-year">2022 — 2026</div>
+          <h3>Bachelor’s</h3>
+          <p>Film, Television and Media Studies</p>
+          <strong>Universidad Carlos III de Madrid</strong>
+          <span>Madrid, Spain</span>
+          <small>Bilingual Bachelor's programme (English/Spanish)<br>Specialization in Film<br>Thesis: 9.5/10</small>
+        </article>
+        <article class="edu">
+          <div class="edu-year">2024 — 2025</div>
+          <h3>Study Abroad</h3>
+          <p>Film and Media Studies</p>
+          <strong>UC Santa Barbara</strong>
+          <span>Santa Barbara, California, USA</span>
+          <small>Grade: 3.94/4</small>
+        </article>
+        <article class="edu">
+          <div class="edu-year">2021 — 2022</div>
+          <h3>High School</h3>
+          <p>12th Grade / High School Diploma</p>
+          <strong>World of Inquiry School</strong>
+          <span>Rochester, New York, USA</span>
+          <small>Exchange year</small>
+        </article>
+      </div>
     </section>
 
     <section class="closing">
@@ -157,5 +326,7 @@
     <span>© 2026 Jorge Rodal</span>
     <div><a href="https://www.linkedin.com/in/jorgerodal" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:jorge@jorgerodal.com">Email ↗</a></div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

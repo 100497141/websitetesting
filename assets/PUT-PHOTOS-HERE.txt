@@ -1,0 +1,6 @@
+Put your real images in this folder using the filenames listed in README.md:
+jorge-portrait.jpg
+the-bear-beneath.jpg
+the-wolf-she-paints.jpg
+society-of-fearless-grandmothers.jpg
+sonora.jpg
