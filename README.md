@@ -51,3 +51,6 @@ This package already contains the seven uploaded PNGs:
 - sonora.png
 - consulate-new-york.png
 - ucsb.png
+
+
+FIX: index.html now correctly loads styles.css; styles-v4.css is also included as a compatibility alias.
