@@ -6,11 +6,11 @@ This version keeps the minimal Apple/editorial direction but makes the site more
 
 Put your real files inside `/assets/` using these exact names:
 
-- `jorge-portrait.jpg`
-- `the-bear-beneath.jpg`
-- `the-wolf-she-paints.jpg`
-- `society-of-fearless-grandmothers.jpg`
-- `sonora.jpg`
+- `jorge-portrait.png`
+- `the-bear-beneath.png`
+- `the-wolf-she-paints.png`
+- `society-of-fearless-grandmothers.png`
+- `sonora.png`
 
 You can also replace the image files with PNG/WebP; if you do, update the filename in `index.html`.
 
@@ -36,3 +36,18 @@ Current links:
 6. Add `jorgerodal.com` as a custom domain.
 
 No paid hosting is required for this static site.
+
+
+### About the temporary photo states
+Until you add the real photography, the cards use intentionally designed editorial compositions rather than generic "image missing" boxes. Replace the files in `/assets/` whenever you are ready; the real images will automatically take over.
+
+
+### Included real photography
+This package already contains the seven uploaded PNGs:
+- jorge-portrait.png
+- the-bear-beneath.png
+- the-wolf-she-paints.png
+- society-of-fearless-grandmothers.png
+- sonora.png
+- consulate-new-york.png
+- ucsb.png
