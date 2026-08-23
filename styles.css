@@ -33,10 +33,10 @@ img{display:block;width:100%;height:100%;object-fit:cover}
 body{overflow-x:hidden}
 .nav{border-bottom:1px solid var(--line);backdrop-filter:saturate(180%) blur(18px)}
 .hero{min-height:auto;padding-bottom:7vw}
-.hero-main{grid-template-columns:minmax(0,1fr) minmax(220px,23vw);align-items:center;gap:6vw}
+.hero-main{grid-template-columns:minmax(0,1fr) minmax(280px,31vw);align-items:center;gap:7vw}
 .hero-copy h1{font-size:clamp(78px,11vw,170px);line-height:.82;margin-bottom:34px}
 .hero-copy>p{font-size:clamp(20px,2.1vw,30px);max-width:650px;line-height:1.1}
-.portrait-slot{aspect-ratio:1365/2048;max-height:520px;border:1px solid var(--frame);background:#f0f0f2;box-shadow:0 18px 55px rgba(0,0,0,.07)}
+.portrait-slot{aspect-ratio:1365/2048;max-height:720px;border:1px solid var(--frame);background:#f0f0f2;box-shadow:0 18px 55px rgba(0,0,0,.07)}
 .portrait-slot img{width:100%;height:100%;object-fit:contain;display:block}
 .portrait-caption{left:18px;bottom:18px;font-size:9px;letter-spacing:.13em;color:#fff}
 .statement{padding:9vw 5vw}
@@ -74,7 +74,7 @@ body{overflow-x:hidden}
  .hero-main{grid-template-columns:1fr;gap:45px}
  .hero-copy h1{font-size:24vw}
  .hero-copy>p{font-size:21px}
- .portrait-slot{width:min(55vw,280px);justify-self:center;max-height:none}
+ .portrait-slot{width:min(78vw,360px);justify-self:center;max-height:none}
  .hero-bottom{margin-top:28px}
  .statement{padding:75px 6vw}.statement p{font-size:14vw}.statement .muted{font-size:22px}
  .section{padding:75px 6vw}.section-head{margin-bottom:30px}.section-head h2{font-size:45px}
